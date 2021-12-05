@@ -21,3 +21,4 @@ create-react-app nome-da-pasta-app
 ```` sh
 npm start
 ````
+# mysql
