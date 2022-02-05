@@ -26,8 +26,14 @@ npm start
  ```` sh
   sudo apt install mysql-server mysql-client
  ```` 
- PARA ALTERAR A SENHA
+ caso nao esta conseguindo acessar va na loja e ative todas as permições para o workbench 
+ 
+ para acessar o MYSQL use:
+ ```` sh
+ mysql -u root -p
+ ````
+ para mudar a senha use:
  
  ```` sh
- ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '';
+ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'sua senha DO MYSQL aqui';
  ````
