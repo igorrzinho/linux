@@ -22,3 +22,15 @@ create-react-app nome-da-pasta-app
 npm start
 ````
 # mysql
+ para instalar usamos:
+ ```` sh
+ 
+ ````
+ 
+ `````sh
+ 
+ ````
+ 
+ ```` sh
+ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '';
+ ````
