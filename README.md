@@ -24,12 +24,9 @@ npm start
 # mysql
  para instalar usamos:
  ```` sh
- 
- ````
- 
- `````sh
- 
- ````
+  sudo apt install mysql-server mysql-client
+ ```` 
+ PARA ALTERAR A SENHA
  
  ```` sh
  ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '';
