@@ -63,10 +63,18 @@ npm start
  
  para acessar o MYSQL use:
  ```` sh
+ sudo su
+ ````
+ 
+ ```` sh
  mysql -u root -p
  ````
  para mudar a senha use:
  
  ```` sh
  ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'sua senha DO MYSQL aqui';
+ ````
+ de um restart no mysql
+ ```` sh
+ service mysql restart
  ````
