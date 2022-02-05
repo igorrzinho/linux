@@ -3,6 +3,39 @@
 ```` sh
 sudo apt install nodejs
 ````
+ ou para instalar com nvm 
+ ```` sh
+ sudo apt install wget
+ ````
+  
+ ```` sh
+ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+ ````
+ ```` sh
+source ~/.profile
+ ````
+ 
+ ````sh
+ nvm ls-remote
+ ````
+ selecione a versao
+  ````sh
+ nvm install 17.4.0
+ ````
+ para verificar a versão instalada
+  ````sh
+ node -v
+ ````
+ 
+ para desistalar alguma versao com nvm
+  ````sh
+nvm deactivate
+````
+ 
+  ````sh
+ nvm uninstall v17.4.0
+ ```` 
+ 
  para instalar os npm usamos:
 ```` sh
 sudo apt install npm
