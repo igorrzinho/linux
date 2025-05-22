@@ -71,10 +71,31 @@ npm start
  ````
  para mudar a senha use:
  
- ```` sh
- ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'sua senha DO MYSQL aqui';
- ````
+ ``` sh
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'sua senha DO MYSQL aqui';
+ ```
  de um restart no mysql
- ```` sh
+ ``` sh
  service mysql restart
- ````
+ ```
+# Git ssh key config
+### git config
+ vamos ver primeiro a versao do git
+``` sh
+git --version
+```
+ agora vamos configurar o nome e o email
+``` sh
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@exemplo.com"
+```
+
+### ssh config
+vamos comecar criando uma ssh no seu sistema
+```sh
+ssh-keygen -t rsa -b 4096 -C "seuemail@exemplo.com"
+```
+ deve ter criado a sua chave, vamos verificar
+``` sh
+cat ~/.ssh/id_rsa.pub
+```
